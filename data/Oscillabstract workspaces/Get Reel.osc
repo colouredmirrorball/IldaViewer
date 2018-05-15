@@ -1,0 +1,436 @@
+Oscillabstract workspace
+IldaViewer version 1.1.0 Beta
+Author: colouredmirrorball
+Visit http://www.photonlexicon.com/forums/showthread.php/21601-Another-Ilda-view-tool
+Modify this file at your own risk.
+
+*************************************************************************************
+
+
+Element
+Name Output
+X 689.0
+Y 523.0
+Index 1
+GUI Record 1.0
+
+Element
+Name Breakin
+X 499.0
+Y 2.0
+Index 3
+GUI close 0.0
+
+Element
+Name Oscillator
+X 87.0
+Y -13.0
+Index 5
+GUI close 0.0
+Waveform 0.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.5
+Offset 0.0
+Samples 200.0
+
+Element
+Name Oscillator
+X 235.0
+Y 95.0
+Index 7
+GUI close 0.0
+Waveform 1.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.5
+Offset 0.0
+Samples 200.0
+
+Element
+Name Constant
+X 346.0
+Y 97.0
+Index 9
+GUI close 0.0
+GUI Value 1.0
+Value 1.0
+
+Element
+Name Oscillator
+X 180.0
+Y 373.0
+Index 11
+GUI close 0.0
+Waveform 0.0
+Frequency 4.0
+Phase 0.5495568
+Amplitude 0.5
+Offset 0.5
+Samples 200.0
+
+Element
+Name Constant
+X 124.0
+Y 639.0
+Index 13
+GUI close 0.0
+GUI Value 0.5
+Value 0.5
+
+Element
+Name Oscillator
+X -27.0
+Y 377.0
+Index 15
+GUI close 0.0
+Waveform 1.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.5
+Offset 0.0
+Samples 200.0
+
+Element
+Name Clock
+X -30.0
+Y 639.0
+Index 17
+GUI close 0.0
+Count 0.5495568
+Frequency 1.0
+
+Element
+Name Constant
+X 267.0
+Y 650.0
+Index 19
+GUI close 0.0
+GUI Value 4.0
+Value 4.0
+
+Element
+Name Translate
+X 800.0
+Y 366.0
+Index 21
+GUI close 0.0
+
+Element
+Name Scale
+X 684.0
+Y 190.0
+Index 23
+GUI close 0.0
+GUI Anchor point 0.0
+Anchor true
+
+Element
+Name Clock
+X 515.0
+Y 244.0
+Index 27
+GUI close 0.0
+Count 0.0
+Frequency 2.0
+
+Element
+Name Oscillator
+X 382.0
+Y 322.0
+Index 29
+GUI close 0.0
+Waveform 1.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.35937
+Offset 0.5
+Samples 200.0
+
+Element
+Name Constant
+X 406.0
+Y 592.0
+Index 31
+GUI close 0.0
+GUI Value 0.35937
+Value 0.35937
+
+Element
+Name Constant
+X 503.0
+Y 389.0
+Index 33
+GUI close 0.0
+GUI Value 2.0
+Value 2.0
+
+Element
+Name Oscillator
+X 699.0
+Y -94.0
+Index 35
+GUI close 0.0
+Waveform 0.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.26999998
+Offset 0.5
+Samples 200.0
+
+Element
+Name Clock
+X 803.0
+Y 110.0
+Index 37
+GUI close 0.0
+Count 0.847547
+Frequency 0.69146
+
+Element
+Name Constant
+X 473.0
+Y -114.0
+Index 39
+GUI close 0.0
+GUI Value 0.5
+Value 0.5
+
+Element
+Name Constant
+X 584.0
+Y -174.0
+Index 41
+GUI close 0.0
+GUI Value 0.26999998
+Value 0.26999998
+
+Element
+Name Oscillator
+X 933.0
+Y -128.0
+Index 47
+GUI close 0.0
+Waveform 1.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.26999998
+Offset 0.5
+Samples 200.0
+
+Element
+Name Clock
+X 960.0
+Y 166.0
+Index 49
+GUI close 0.0
+Count 0.847547
+Frequency 0.69146
+
+Element
+Name Constant
+X 942.0
+Y 310.0
+Index 51
+GUI close 0.0
+GUI Value 0.69146
+Value 0.69146
+
+Element
+Name Constant
+X 823.0
+Y 236.0
+Index 53
+GUI close 0.0
+GUI Value 8.0E-5
+Value 8.0E-5
+
+Connection
+Type 0
+InIndex 23
+OutIndex 3
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 3
+OutIndex 7
+NodeInName Y
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 3
+OutIndex 5
+NodeInName X
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 3
+OutIndex 9
+NodeInName B
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 3
+OutIndex 11
+NodeInName G
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 11
+OutIndex 13
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 11
+OutIndex 17
+NodeInName Phase
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 11
+OutIndex 19
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 1
+OutIndex 21
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 21
+OutIndex 23
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 23
+OutIndex 27
+NodeInName Combined
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 27
+OutIndex 29
+NodeInName Shape
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 29
+OutIndex 13
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 29
+OutIndex 31
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 27
+OutIndex 33
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 23
+OutIndex 37
+NodeInName Anchor X
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 37
+OutIndex 35
+NodeInName Shape
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 35
+OutIndex 39
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 35
+OutIndex 41
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 47
+OutIndex 41
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 47
+OutIndex 39
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 49
+OutIndex 47
+NodeInName Shape
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 23
+OutIndex 49
+NodeInName Anchor Y
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 49
+OutIndex 51
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 37
+OutIndex 51
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 49
+OutIndex 53
+NodeInName Reset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 37
+OutIndex 53
+NodeInName Reset
+NodeOutName Output
+

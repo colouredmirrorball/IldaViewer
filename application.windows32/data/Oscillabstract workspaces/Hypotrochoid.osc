@@ -1,0 +1,377 @@
+Oscillabstract workspace
+IldaViewer version 1.1.0 Beta
+Author: colouredmirrorball
+Visit http://www.photonlexicon.com/forums/showthread.php/21601-Another-Ilda-view-tool
+Modify this file at your own risk.
+
+*************************************************************************************
+
+
+Element
+Name Output
+X 322.0
+Y 500.0
+Index 1
+GUI Record 0.0
+
+Element
+Name Breakin
+X 818.0
+Y 446.0
+Index 4
+GUI close 0.0
+
+Element
+Name Constant
+X 109.0
+Y 198.0
+Index 8
+GUI close 0.0
+GUI Value 5.0
+Value 5.0
+
+Element
+Name Constant
+X 97.0
+Y 376.0
+Index 10
+GUI close 0.0
+GUI Value 3.0
+Value 3.0
+
+Element
+Name Adder
+X 307.0
+Y 264.0
+Index 24
+GUI close 0.0
+GUI Add 0.0
+GUI + 0.0
+Inputs 2
+Subtract true
+
+Element
+Name Oscillator
+X 320.0
+Y -6.0
+Index 28
+GUI close 0.0
+Waveform 1.0
+Frequency 1.0
+Phase 0.0
+Amplitude 2.0
+Offset 0.0
+Samples 200.0
+
+Element
+Name Adder
+X 667.0
+Y 327.0
+Index 34
+GUI close 0.0
+GUI Add 0.0
+GUI + 0.0
+Inputs 2
+Subtract false
+
+Element
+Name Constant
+X 660.0
+Y 617.0
+Index 36
+GUI close 0.0
+GUI Value 1.0
+Value 1.0
+
+Element
+Name Multiplier
+X 439.0
+Y 388.0
+Index 38
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide true
+
+Element
+Name Oscillator
+X 525.0
+Y 574.0
+Index 40
+GUI close 0.0
+Waveform 1.0
+Frequency 0.6666667
+Phase 0.0
+Amplitude 5.0
+Offset 0.0
+Samples 200.0
+
+Element
+Name Oscillator
+X 239.0
+Y 582.0
+Index 44
+GUI close 0.0
+Waveform 0.0
+Frequency 1.0
+Phase 0.0
+Amplitude 2.0
+Offset 0.0
+Samples 200.0
+
+Element
+Name Adder
+X 590.0
+Y 842.0
+Index 46
+GUI close 0.0
+GUI Add 0.0
+GUI + 0.0
+Inputs 2
+Subtract true
+
+Element
+Name Scale
+X 753.0
+Y 841.0
+Index 48
+GUI close 0.0
+GUI Anchor point 0.0
+Anchor false
+
+Element
+Name Constant
+X 679.0
+Y 973.0
+Index 50
+GUI close 0.0
+GUI Value 0.056240007
+Value 0.056240007
+
+Element
+Name Oscillator
+X 400.0
+Y 796.0
+Index 54
+GUI close 0.0
+Waveform 0.0
+Frequency 0.6666667
+Phase 0.0
+Amplitude 5.0
+Offset 0.0
+Samples 200.0
+
+Element
+Name Constant
+X 54.0
+Y 493.0
+Index 56
+GUI close 0.0
+GUI Value 5.0
+Value 5.0
+
+Element
+Name Oscillator
+X -45.0
+Y 630.0
+Index 58
+GUI close 0.0
+Waveform 2.0
+Frequency 1.0
+Phase 0.0
+Amplitude 2.0
+Offset 2.0
+Samples 200.0
+
+Element
+Name Constant
+X -229.0
+Y 817.0
+Index 60
+GUI close 0.0
+GUI Value 2.0
+Value 2.0
+
+Connection
+Type 0
+InIndex 48
+OutIndex 4
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 24
+OutIndex 8
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 24
+OutIndex 10
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 4
+OutIndex 34
+NodeInName X
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 4
+OutIndex 36
+NodeInName R
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 38
+OutIndex 24
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 38
+OutIndex 10
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 40
+OutIndex 38
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 28
+OutIndex 24
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 34
+OutIndex 28
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 34
+OutIndex 40
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 44
+OutIndex 24
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 46
+OutIndex 44
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 4
+OutIndex 46
+NodeInName Y
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 1
+OutIndex 48
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 48
+OutIndex 50
+NodeInName Combined
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 46
+OutIndex 54
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 54
+OutIndex 38
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 40
+OutIndex 56
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 54
+OutIndex 56
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 58
+OutIndex 60
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 58
+OutIndex 60
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 28
+OutIndex 58
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 44
+OutIndex 58
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 40
+OutIndex 58
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 54
+OutIndex 58
+NodeInName Input
+NodeOutName Output
+

@@ -1,0 +1,55 @@
+Oscillabstract workspace
+IldaViewer version 1.1.4 Beta
+Author: colouredmirrorball
+Visit http://www.photonlexicon.com/forums/showthread.php/21601-Another-Ilda-view-tool
+Modify this file at your own risk.
+
+*************************************************************************************
+
+
+Element
+Name Source
+X 17.0
+Y 116.0
+Index 0
+GUI Options 0.0
+GUI Select frames 0.0
+GUI Autoplay 0.0
+GUI close 0.0
+Beginframe 0
+Endframe 0
+Programmedframe -1
+Framefile _frames_0.ild
+
+Element
+Name Output
+X 632.0
+Y 701.0
+Index 1
+GUI Record 0.0
+
+Element
+Name Palette
+X 371.0
+Y 369.0
+Index 10
+GUI Options 0.0
+GUI << 0.0
+GUI >> 0.0
+GUI close 0.0
+Palettefile ILDA 256
+
+Connection
+Type 0
+InIndex 10
+OutIndex 0
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 1
+OutIndex 10
+NodeInName Input
+NodeOutName Output
+

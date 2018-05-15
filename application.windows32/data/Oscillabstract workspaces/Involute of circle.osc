@@ -1,0 +1,335 @@
+Oscillabstract workspace
+IldaViewer version 1.1.0 Beta
+Author: colouredmirrorball
+Visit http://www.photonlexicon.com/forums/showthread.php/21601-Another-Ilda-view-tool
+Modify this file at your own risk.
+
+*************************************************************************************
+
+
+Element
+Name Output
+X 631.0
+Y 605.0
+Index 1
+GUI Record 0.0
+
+Element
+Name Breakin
+X 512.0
+Y 359.0
+Index 4
+GUI close 0.0
+
+Element
+Name Oscillator
+X 107.0
+Y 75.0
+Index 8
+GUI close 0.0
+Waveform 1.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.5
+Offset 0.0
+Samples 200.0
+
+Element
+Name Oscillator
+X 103.0
+Y 335.0
+Index 10
+GUI close 0.0
+Waveform 0.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.0
+Offset 0.0
+Samples 200.0
+
+Element
+Name Adder
+X 265.0
+Y 209.0
+Index 12
+GUI close 0.0
+GUI Add 0.0
+GUI + 0.0
+Inputs 2
+Subtract false
+
+Element
+Name Oscillator
+X -136.0
+Y 374.0
+Index 14
+GUI close 0.0
+Waveform 2.0
+Frequency 1.0
+Phase 0.0
+Amplitude 2.0
+Offset 2.0
+Samples 200.0
+
+Element
+Name Constant
+X -268.0
+Y 519.0
+Index 16
+GUI close 0.0
+GUI Value 2.0
+Value 2.0
+
+Element
+Name Multiplier
+X 362.0
+Y 370.0
+Index 18
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide false
+
+Element
+Name Constant
+X 442.0
+Y 713.0
+Index 20
+GUI close 0.0
+GUI Value 0.09986001
+Value 0.09986001
+
+Element
+Name Oscillator
+X 484.0
+Y 862.0
+Index 22
+GUI close 0.0
+Waveform 3.0
+Frequency 1.0
+Phase 0.3283197
+Amplitude 0.5
+Offset 0.5
+Samples 200.0
+
+Element
+Name Constant
+X 246.0
+Y 1009.0
+Index 24
+GUI close 0.0
+GUI Value 0.5
+Value 0.5
+
+Element
+Name Oscillator
+X 13.0
+Y 616.0
+Index 26
+GUI close 0.0
+Waveform 0.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.5
+Offset 0.0
+Samples 200.0
+
+Element
+Name Oscillator
+X 170.0
+Y 716.0
+Index 28
+GUI close 0.0
+Waveform 1.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.0
+Offset 0.0
+Samples 200.0
+
+Element
+Name Adder
+X 280.0
+Y 592.0
+Index 30
+GUI close 0.0
+GUI Add 0.0
+GUI + 0.0
+Inputs 2
+Subtract true
+
+Element
+Name Multiplier
+X 390.0
+Y 531.0
+Index 32
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide false
+
+Element
+Name Clock
+X 258.0
+Y 1115.0
+Index 34
+GUI close 0.0
+Count 0.3283197
+Frequency 1.0
+
+Connection
+Type 1
+InIndex 12
+OutIndex 10
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 12
+OutIndex 8
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 14
+OutIndex 16
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 10
+OutIndex 14
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 18
+OutIndex 12
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 18
+OutIndex 20
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 4
+OutIndex 18
+NodeInName X
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 1
+OutIndex 4
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 4
+OutIndex 22
+NodeInName B
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 22
+OutIndex 24
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 30
+OutIndex 26
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 30
+OutIndex 28
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 32
+OutIndex 30
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 28
+OutIndex 14
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 4
+OutIndex 32
+NodeInName Y
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 32
+OutIndex 20
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 10
+OutIndex 14
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 26
+OutIndex 14
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 28
+OutIndex 14
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 8
+OutIndex 14
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 14
+OutIndex 16
+NodeInName Amplitude
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 22
+OutIndex 34
+NodeInName Phase
+NodeOutName Output
+

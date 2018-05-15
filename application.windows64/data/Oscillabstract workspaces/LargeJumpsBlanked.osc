@@ -1,0 +1,340 @@
+Oscillabstract workspace
+IldaViewer version 1.1.0 Beta
+Author: colouredmirrorball
+Visit http://www.photonlexicon.com/forums/showthread.php/21601-Another-Ilda-view-tool
+Modify this file at your own risk.
+
+*************************************************************************************
+
+
+Element
+Name Output
+X 369.0
+Y 195.0
+Index 1
+GUI Record 0.0
+
+Element
+Name Breakin
+X 422.0
+Y 356.0
+Index 3
+GUI close 0.0
+
+Element
+Name Constant
+X 106.0
+Y 609.0
+Index 5
+GUI close 0.0
+GUI Value 1.0
+Value 1.0
+
+Element
+Name Oscillator
+X -38.0
+Y 101.0
+Index 7
+GUI close 0.0
+Waveform 3.0
+Frequency 3.0
+Phase 0.0
+Amplitude 0.5
+Offset 0.0
+Samples 200.0
+
+Element
+Name Oscillator
+X -47.0
+Y 337.0
+Index 9
+GUI close 0.0
+Waveform 2.0
+Frequency 4.0
+Phase 0.0
+Amplitude 0.5
+Offset 0.0
+Samples 200.0
+
+Element
+Name Constant
+X -281.0
+Y 156.0
+Index 11
+GUI close 0.0
+GUI Value 3.0
+Value 3.0
+
+Element
+Name Constant
+X -226.0
+Y 330.0
+Index 13
+GUI close 0.0
+GUI Value 4.0
+Value 4.0
+
+Element
+Name Inspect
+X 422.0
+Y 58.0
+Index 15
+GUI close 0.0
+GUI Details 1.0
+Details true
+
+Element
+Name Math
+X 109.0
+Y 43.0
+Index 17
+GUI close 0.0
+GUI <- 0.0
+GUI -> 0.0
+GUI Formula 0.0
+GUI Scroller 0.83157897
+GUI Square 0.0
+GUI Power 0.0
+GUI Sqrt 0.0
+GUI n-th root 0.0
+GUI exp 0.0
+GUI nat. log 0.0
+GUI log base 0.0
+GUI distance 0.0
+GUI Gaussian 0.0
+GUI modulo 0.0
+GUI floor 0.0
+GUI ceiling 0.0
+GUI round 0.0
+GUI max 0.0
+GUI min 0.0
+GUI largest 0.0
+GUI smallest 0.0
+GUI constrain 0.0
+GUI abs 0.0
+GUI sign 0.0
+GUI sin 0.0
+GUI cos 0.0
+GUI tan 0.0
+GUI sec 0.0
+GUI cosec 0.0
+GUI cot 0.0
+GUI asin 0.0
+GUI acos 0.0
+GUI atan 0.0
+GUI sinh 0.0
+GUI cosh 0.0
+GUI tanh 0.0
+GUI atan2 0.0
+GUI diff 0.0
+GUI sum 0.0
+State 33
+
+Element
+Name Multiplier
+X 264.0
+Y 180.0
+Index 19
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide false
+
+Element
+Name Constant
+X 262.0
+Y 63.0
+Index 23
+GUI close 0.0
+GUI Value -1.0537899
+Value -1.0537899
+
+Element
+Name Multiplier
+X 207.0
+Y 372.0
+Index 25
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 3
+Divide false
+
+Element
+Name Constant
+X 66.0
+Y 420.0
+Index 27
+GUI close 0.0
+GUI Value -99.73718
+Value -99.73718
+
+Element
+Name Math
+X 94.0
+Y 222.0
+Index 29
+GUI close 0.0
+GUI <- 0.0
+GUI -> 0.0
+GUI Formula 0.0
+GUI Scroller 0.86315787
+GUI Square 0.0
+GUI Power 0.0
+GUI Sqrt 0.0
+GUI n-th root 0.0
+GUI exp 0.0
+GUI nat. log 0.0
+GUI log base 0.0
+GUI distance 0.0
+GUI Gaussian 0.0
+GUI modulo 0.0
+GUI floor 0.0
+GUI ceiling 0.0
+GUI round 0.0
+GUI max 0.0
+GUI min 0.0
+GUI largest 0.0
+GUI smallest 0.0
+GUI constrain 0.0
+GUI abs 0.0
+GUI sign 0.0
+GUI sin 0.0
+GUI cos 0.0
+GUI tan 0.0
+GUI sec 0.0
+GUI cosec 0.0
+GUI cot 0.0
+GUI asin 0.0
+GUI acos 0.0
+GUI atan 0.0
+GUI sinh 0.0
+GUI cosh 0.0
+GUI tanh 0.0
+GUI atan2 0.0
+GUI diff 0.0
+GUI sum 0.0
+State 33
+
+Element
+Name Inspect
+X 299.0
+Y 571.0
+Index 31
+GUI close 0.0
+GUI Details 1.0
+Details true
+
+Connection
+Type 0
+InIndex 1
+OutIndex 3
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 3
+OutIndex 5
+NodeInName R
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 3
+OutIndex 9
+NodeInName Y
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 3
+OutIndex 7
+NodeInName X
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 7
+OutIndex 11
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 9
+OutIndex 13
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 17
+OutIndex 7
+NodeInName a
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 15
+OutIndex 19
+NodeInName Input_fl
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 19
+OutIndex 23
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 25
+OutIndex 17
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 3
+OutIndex 25
+NodeInName Blank
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 25
+OutIndex 27
+NodeInName Value 3
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 29
+OutIndex 9
+NodeInName a
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 19
+OutIndex 29
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 25
+OutIndex 19
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 31
+OutIndex 25
+NodeInName Input_fl
+NodeOutName Output
+

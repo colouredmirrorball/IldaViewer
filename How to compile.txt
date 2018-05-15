@@ -1,0 +1,24 @@
+How to compile:
+
+-Download Processing from processing.org
+
+-Make sure you have a JDK and OpenGL 2.0+ installed on your system (Processing will tell you if that's not the case).
+
+-Run Processing at least once
+
+-Inside the Processing IDE, do Sketch >> Import Library >> Add Library... and install the libraries ControlP5 and PeasyCam
+
+-Rename the source folder to IldaViewer and place (copy or cut) the data folder in here
+
+-Open IldaViewer.pde in the Processing IDE, make sure the other .pde files are in the same folder and this folder is called IldaViewer (formerly source), the IldaViewer.java file should not be opened, if it is remove it from the sketch
+
+-Drag and drop sDrop.jar from the lib folder to the IDE to add it to the sketch. Alternatively you can download it from http://www.sojamo.de/libraries/drop/ and install it in the library folder of your sketchbook location (which you can find under File >> Preferences)
+
+-You should now be able to run IldaViewer and export for your OS.
+
+
+If this doesn't work:
+
+-Make sure all libraries are installed correctly: ControlP5, PeasyCam and SDrop. You can try to run the examples to see if they work. 
+
+-Make sure all tabs are in place in the IDE once you opened IldaViewer. If no other tabs are opened, try renaming the folder to IldaViewer or create the tabs manually (you can open .pde files in a text editor and paste the content to the IDE).

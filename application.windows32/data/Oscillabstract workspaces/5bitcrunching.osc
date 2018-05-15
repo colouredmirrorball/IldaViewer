@@ -1,0 +1,338 @@
+Oscillabstract workspace
+IldaViewer version 1.1.0 Beta
+Author: colouredmirrorball
+Visit http://www.photonlexicon.com/forums/showthread.php/21601-Another-Ilda-view-tool
+Modify this file at your own risk.
+
+*************************************************************************************
+
+
+Element
+Name Output
+X 23.0
+Y 485.0
+Index 1
+GUI Record 0.0
+
+Element
+Name Breakout
+X 293.0
+Y 148.0
+Index 4
+GUI close 0.0
+
+Element
+Name Breakin
+X 554.0
+Y 151.0
+Index 6
+GUI close 0.0
+
+Element
+Name Constant
+X 94.0
+Y 730.0
+Index 8
+GUI close 0.0
+GUI Value 16.0
+Value 16.0
+
+Element
+Name Multiplier
+X 315.0
+Y 407.0
+Index 10
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide false
+
+Element
+Name Multiplier
+X 313.0
+Y 581.0
+Index 12
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide false
+
+Element
+Name Multiplier
+X 316.0
+Y 753.0
+Index 14
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide false
+
+Element
+Name Source
+X 91.0
+Y 218.0
+Index 15
+GUI Options 0.0
+GUI Select frames 0.0
+GUI Autoplay 1.0
+GUI close 0.0
+Beginframe 389
+Endframe 389
+Programmedframe -1
+Framefile _frames_15.ild
+
+Element
+Name Math
+X 440.0
+Y 410.0
+Index 17
+GUI close 0.0
+GUI <- 0.0
+GUI -> 0.0
+State 10
+
+Element
+Name Math
+X 436.0
+Y 579.0
+Index 19
+GUI close 0.0
+GUI <- 0.0
+GUI -> 0.0
+State 10
+
+Element
+Name Math
+X 434.0
+Y 754.0
+Index 21
+GUI close 0.0
+GUI <- 0.0
+GUI -> 0.0
+State 10
+
+Element
+Name Multiplier
+X 564.0
+Y 467.0
+Index 25
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide true
+
+Element
+Name Multiplier
+X 559.0
+Y 639.0
+Index 27
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide true
+
+Element
+Name Multiplier
+X 557.0
+Y 817.0
+Index 29
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide true
+
+Connection
+Type 1
+InIndex 6
+OutIndex 4
+NodeInName R
+NodeOutName R
+
+Connection
+Type 1
+InIndex 6
+OutIndex 4
+NodeInName G
+NodeOutName G
+
+Connection
+Type 1
+InIndex 6
+OutIndex 4
+NodeInName B
+NodeOutName B
+
+Connection
+Type 1
+InIndex 6
+OutIndex 4
+NodeInName Total points
+NodeOutName Total points
+
+Connection
+Type 1
+InIndex 6
+OutIndex 4
+NodeInName Blank
+NodeOutName Blank
+
+Connection
+Type 1
+InIndex 6
+OutIndex 4
+NodeInName Palette index
+NodeOutName Palette index
+
+Connection
+Type 1
+InIndex 10
+OutIndex 4
+NodeInName Value 1
+NodeOutName X
+
+Connection
+Type 1
+InIndex 12
+OutIndex 4
+NodeInName Value 1
+NodeOutName Y
+
+Connection
+Type 1
+InIndex 14
+OutIndex 4
+NodeInName Value 1
+NodeOutName Z
+
+Connection
+Type 1
+InIndex 10
+OutIndex 8
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 12
+OutIndex 8
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 14
+OutIndex 8
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 1
+OutIndex 6
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 4
+OutIndex 15
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 17
+OutIndex 10
+NodeInName a
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 19
+OutIndex 12
+NodeInName a
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 21
+OutIndex 14
+NodeInName a
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 25
+OutIndex 17
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 27
+OutIndex 19
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 29
+OutIndex 21
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 25
+OutIndex 8
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 27
+OutIndex 8
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 29
+OutIndex 8
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 6
+OutIndex 25
+NodeInName X
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 6
+OutIndex 27
+NodeInName Y
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 6
+OutIndex 29
+NodeInName Z
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 1
+OutIndex 15
+NodeInName Sync
+NodeOutName Sync
+

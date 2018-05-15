@@ -1,0 +1,246 @@
+Oscillabstract workspace
+IldaViewer version 1.1.0 Beta
+Author: colouredmirrorball
+Visit http://www.photonlexicon.com/forums/showthread.php/21601-Another-Ilda-view-tool
+Modify this file at your own risk.
+
+*************************************************************************************
+
+
+Element
+Name Source
+X 9.0
+Y 82.0
+Index 0
+GUI Options 0.0
+GUI Select frames 0.0
+GUI Autoplay 0.0
+GUI close 0.0
+Beginframe 317
+Endframe 317
+Programmedframe -1
+Framefile _frames_0.ild
+
+Element
+Name Output
+X 674.0
+Y 677.0
+Index 1
+GUI Record 0.0
+
+Element
+Name RGB
+X 354.0
+Y 226.0
+Index 8
+GUI Overwrite 0.0
+GUI close 0.0
+Multiply true
+
+Element
+Name Oscillator
+X 190.0
+Y 419.0
+Index 10
+GUI close 0.0
+Waveform 5.0
+Frequency 1.0
+Phase 0.59903115
+Amplitude 0.5
+Offset 0.5
+Samples 200.0
+
+Element
+Name Clock
+X 40.0
+Y 594.0
+Index 12
+GUI close 0.0
+Count 0.59903115
+Frequency 0.11772
+
+Element
+Name Constant
+X 61.0
+Y 751.0
+Index 14
+GUI close 0.0
+GUI Value 0.5
+Value 0.5
+
+Element
+Name Constant
+X -114.0
+Y 738.0
+Index 16
+GUI close 0.0
+GUI Value 0.11772
+Value 0.11772
+
+Element
+Name Constant
+X 14.0
+Y 393.0
+Index 18
+GUI close 0.0
+GUI Value 1.0
+Value 1.0
+
+Element
+Name Oscillator
+X 302.0
+Y 524.0
+Index 20
+GUI close 0.0
+Waveform 5.0
+Frequency 1.0
+Phase 1.037777
+Amplitude 0.5
+Offset 0.5
+Samples 200.0
+
+Element
+Name Multiplier
+X 422.0
+Y 461.0
+Index 22
+GUI close 0.0
+GUI Multiply 0.0
+GUI + 0.0
+Inputs 2
+Divide false
+
+Element
+Name Inspect
+X 569.0
+Y 382.0
+Index 24
+GUI close 0.0
+GUI Details 1.0
+Details true
+
+Element
+Name Adder
+X 210.0
+Y 785.0
+Index 26
+GUI close 0.0
+GUI Add 0.0
+GUI + 0.0
+Inputs 2
+Subtract false
+
+Element
+Name Constant
+X 37.0
+Y 851.0
+Index 28
+GUI close 0.0
+GUI Value 0.44125998
+Value 0.44125998
+
+Connection
+Type 0
+InIndex 8
+OutIndex 0
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 1
+OutIndex 8
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 22
+OutIndex 10
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 10
+OutIndex 12
+NodeInName Phase
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 10
+OutIndex 14
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 12
+OutIndex 16
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 10
+OutIndex 18
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 24
+OutIndex 22
+NodeInName Input_fl
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 22
+OutIndex 20
+NodeInName Value 2
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 20
+OutIndex 14
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 8
+OutIndex 22
+NodeInName I
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 26
+OutIndex 12
+NodeInName Value 1
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 20
+OutIndex 26
+NodeInName Phase
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 20
+OutIndex 18
+NodeInName Frequency
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 26
+OutIndex 28
+NodeInName Value 2
+NodeOutName Output
+

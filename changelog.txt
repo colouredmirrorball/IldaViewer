@@ -1,0 +1,110 @@
+﻿Ilda Viewer v 1.1.4 Beta
+by colouredmirrorball
+
+Changelog for version 1.1.4 Beta:
++Fixed toggling graphic view in Sequence editor made the frames go anywhere but where they belong, now the last selected frame will be at the top
++Added reset node functionality (right-click on input nodes) of Oscillator, Segment, Palette, Optimise, Breakout, Breakin, Clock, RGB2HSB, XYZ2Rθφ and Buffershift elements
++Fixed Buffershift glitches 
+-Temporarily removed the Clip, Optimize and XYZ2Rθφ elements until they can be fixed
+-Temporarily removed the Optimize button in Export to File tab
+-Known issue: clicking on the preview area in the Inspect element brings up the external preview window, but this can cause a crash in IldaViewer
+
+Changelog for version 1.1.2 and 1.1.3 Beta:
++Fixed buffer list in Sequence editor
++Add option to autoselect output format in the .ini file
+-Tried to fix bugs in the RThetaPhi2XYZ Oscillelement but it didn't work
+-Inspect and optimisation settings popup window appears to be severely bugged :(
+
+Changelog for version 1.1.1 Beta:
+-Renamed Sequence creator tab to Oscillabstract and made Deluxe Paint hidden (inquisitive users can still find it though)
++Can now import and export .pic, .cat and .txt files
+-Made Frame editor hidden as it has been replaced by another project
++More stuff changed in Sequence editor
++Lots of new stuff in Oscillabstract, like holy crap
++Added About tab
++Optimisation started!
+
+Changelog for version 1.1.0 Beta:
+-Fixed various things in the sequence editor including GUI improvements and some extra functions
+-Did some work on the frame editor but is still largely unuseable
+-Sequence creator tab got a major overhaul: you can now choose a sequence creator option, currently Deluxe Paint and Oscillabstract
+-The Oscillabstract is a monster which is now about as large as the rest of the program combined. Too many functions to describe here.
+-Added a drag and drop option: you can now drag and drop files from a file browser into the program
+-Added an icon
+
+Changelog for version 1.0.3:
+-Fixed wrong selection in buffer in sequence editor (it would only select correctly if the frames were in the same position as the main frame list)
+-Fixed being able to highlight multiple frames (to multiselect, use right mouse button)
+-Fixed colours of dropped frames in sequence editor
+-Fixed right clicking on empty place in both framelists causing a crash in sequence editor
+-Fixed not being able to select in frame buffer in sequence editor
+-Fixed 0 not being equal to '0'
+
+Changelog for version 1.0.2:
+-There is now an IldaViewer.ini file in the Data folder to alter various settings such as window size, default palette, GUI colours, show information text and show blanking lines
+-Sequence Editor tab: drag frames in and out of the frame list, into a temporary storage buffer, create new empty frames, drag to a delete button, drag freshly loaded ilda frames around, copy/paste, advanced merge methods
+-Laserboy button: get your favorite Laserboy GUI feature! :D
+
+Changelog for version 1.0.1:
+-Fixed nullpointererror when selecting an invalid file to import (ild and palette image)
+-Fixed palette colour nr 256 not being exported (they said max 255! D: )
+-Improved Easter egg a little bit (has anyone found it yet?)
+-Fixed "Show information" not remaining active when going to another tab
+-Ilda V0 blanking fixed (woops!)
+-When entering palette editor tab, colour sliders now get the value of the first colour instead of white
+
+Changelog for version 1.0.0:
+-Big release!
+-Several small annoyances fixed
+
+Changelog for version 0.1.8:
+-Fixed faulty palette in exported ilda files
+-Added Pro Laserist Mode toggle
+
+Changelog for version 0.1.7:
++Ilda export! All versions supported
+-When exporting as ilda V0 or 1 (palettes), there's an option to include the palette
+-When including a palette, there's an option to convert RGB values to the best fitting palette colour
+-When selecting another colour in the Palette Editor, it no longer gets the previously selected colour
+-Hidden easter egg
+
+
+Changelog for version 0.1.6:
+-Frames from Deluxe Paint are now at the correct z position
+-Added a Show Blanking switch
+-Fixed Laserboy frames not having correct blanking
+-New Palette Editor and Export to File tabs
+-Nifty Palette Editor which can recolour individual palette colours, rename, and import/export palettes as images!
+
+Changelog for version 0.1.5:
+-Bug fixed: palette buttons not disappearing when palette frame is active and switching to deluxe paint
+-Colours are more random in the deluxe paint mode
+-GUI upgrade for playback and frame picking
+-GUI buttons should only be visible when they can be used
+-Moved the Deluxe Paint mode to a new tab
+
+Changelog for version 0.1.4:
+-When using the UI buttons, it no longer affects the 3D orientation
++Added a Deluxe Paint option for simple 2D frame creation
+
+Changelog for version 0.1.3:
++Added support for files with an included palette
++Ilda V1 now uses palettes as well
++Playback speed slider can now go negative to play backwards
+-No default palettes yet (except the Random). If you want a specific palette, you need to load in a file with that palette (Ild Sôs has an option to include palette headers inside the file)
++Added buttons to swap palettes (only visible when palette frame is detected)
+
+Changelog for version 0.1.2:
++Clicking next frame at the last frame now jumps back to first frame, same for first frame
++Added Frame number, number of frames and scanner head to ilda file information
+-Last point of frame no longer ignored
+-File now loads properly when "ILDA" occurs in frame header (as frame or company name)
++Palette files now load with a default "random" palette
+
+Changelog for version 0.1.1: 
+-Importing multi-frame ilda V4/5 files now works properly
+-Importing is now much faster and much less resource intensive, since the total ilda file isn't stored inside each frame anymore (derp)
++Added playback rate slider
+
+
+

@@ -1,0 +1,164 @@
+Oscillabstract workspace
+IldaViewer version 1.1.0 Beta
+Author: colouredmirrorball
+Visit http://www.photonlexicon.com/forums/showthread.php/21601-Another-Ilda-view-tool
+Modify this file at your own risk.
+
+*************************************************************************************
+
+
+Element
+Name Output
+X 290.0
+Y 370.0
+Index 1
+GUI Record 0.0
+
+Element
+Name Source
+X -63.0
+Y 134.0
+Index 3
+GUI Options 0.0
+GUI Select frames 0.0
+GUI Autoplay 0.0
+GUI close 0.0
+Beginframe -1
+Endframe -1
+Programmedframe 3
+
+Element
+Name Scale
+X 71.0
+Y 261.0
+Index 7
+GUI close 0.0
+GUI Anchor point 0.0
+Anchor false
+
+Element
+Name Oscillator
+X 229.0
+Y 81.0
+Index 9
+GUI close 0.0
+Waveform 3.0
+Frequency 1.0
+Phase 0.0
+Amplitude 0.5
+Offset -0.50008
+Samples 200.0
+
+Element
+Name Constant
+X 362.0
+Y 120.0
+Index 11
+GUI close 0.0
+GUI Value -0.50008
+Value -0.50008
+
+Element
+Name Constant
+X -75.0
+Y 444.0
+Index 13
+GUI close 0.0
+GUI Value 0.50001
+Value 0.50001
+
+Element
+Name Translate
+X 81.0
+Y 441.0
+Index 15
+GUI close 0.0
+
+Element
+Name Rotate
+X 226.0
+Y 497.0
+Index 17
+GUI close 0.0
+GUI Pivot point 0.0
+
+Element
+Name Clock
+X 109.0
+Y 600.0
+Index 19
+GUI close 0.0
+Count 0.6666667
+
+Element
+Name Constant
+X -37.0
+Y 563.0
+Index 21
+GUI close 0.0
+GUI Value -0.15625
+Value -0.15625
+
+Connection
+Type 0
+InIndex 7
+OutIndex 3
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 15
+OutIndex 7
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 7
+OutIndex 9
+NodeInName Y
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 9
+OutIndex 11
+NodeInName Offset
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 7
+OutIndex 13
+NodeInName X
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 17
+OutIndex 15
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 0
+InIndex 1
+OutIndex 17
+NodeInName Input
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 17
+OutIndex 19
+NodeInName Y
+NodeOutName Output
+
+Connection
+Type 1
+InIndex 15
+OutIndex 21
+NodeInName Y
+NodeOutName Output
+
